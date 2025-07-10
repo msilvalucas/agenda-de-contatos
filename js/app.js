@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const modalCadastro = document.getElementById("modalNewRegister");
 
-  // Ao abrir o modal, define título e texto do botão de acordo com o contexto
   modalCadastro.addEventListener("show.bs.modal", () => {
     const id = document.getElementById("formContato").getAttribute("data-id");
     const btn = document.getElementById("btnSubmitForm");
@@ -44,7 +43,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       preencherFormulario(contato);
       document.getElementById("formContato").setAttribute("data-id", id);
 
-      // Atualiza modal para modo de edição
       document.getElementById("btnSubmitForm").innerText = "Editar";
       document.getElementById("tituloModalContato").innerText =
         "Editar contato";
