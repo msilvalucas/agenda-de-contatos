@@ -1,4 +1,4 @@
-const API_URL = "https://agenda-de-contatos-backend.onrender.com";
+const API_URL = "https://agenda-contatos.infinityfreeapp.com/contatos";
 
 export const getContatos = async () => {
   const res = await fetch(API_URL);
