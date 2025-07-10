@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+.navbar {
+  background-color: #eff5ff;
+  height: 127px;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+}
+
+.bg-fundo {
+  height: calc(100vh - 127px);
+  background-color: #eff5ff;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cadastro {
+  margin-top: 82px;
+}
+
+.cadastro .title {
+  color: #053f62;
+  font-family: "JetBrains Mono";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.box-btn-cadastrar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-btn-cadastrar .btn-cadastrar {
+  padding: 16px 20px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background-color: #053f62;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.box-btn-cadastrar .btn-cadastrar:hover {
+  background-color: #053f62;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.table {
+  margin-top: 32px;
+}
+
+.table td,
+.table th {
+  padding: 16px 32px;
+}
+
+.table thead {
+  height: 49px;
+  border: 1px solid #053f62;
+  background-color: #053f62;
+}
+
+.table thead tr {
+  color: #fff;
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 131%;
+  vertical-align: middle;
+}
+
+.table tbody {
+  border-radius: 0px 0px 2px 2px;
+  background: #fff;
+}
+
+.table tbody tr {
+  height: 105px;
+  vertical-align: middle;
+}
+
+.table tbody tr td button {
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+
+form {
+  color: #2957a4;
+  font-family: "JetBrains Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 16px */
+  text-transform: capitalize;
+}
+
+form div input {
+  border-radius: 2px;
+  background: #f5f5f5 !important;
+}
+
+/* Modal */
+.modal-header .btn-close {
+  margin-top: -85px;
+}
+
+.modal-content {
+  padding: 42px 0 0 0px;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-title {
+  color: #2957a4;
+  font-family: "JetBrains Mono";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.btn-modal-cadastro {
+  height: 52px;
+  padding: 10px 42px 10px 42px;
+  border-radius: 100px;
+  background: #2957a4;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 150% */
+}
+
+.btn-modal-cancelar {
+  border: none;
+  background-color: transparent;
+  height: 52px;
+  padding: 10px 42px 10px 42px;
+  border-radius: 100px;
+  color: #707070;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.btn-fechar {
+  height: 42px;
+  padding: 9px 20px;
+  border-radius: 100px;
+  background: #2957a4;
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 150% */
+}
+
+.text-delete {
+  color: #707070;
+  font-family: "JetBrains Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.btn-cancelar {
+  background-color: transparent;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 100px;
+  color: #707070;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
