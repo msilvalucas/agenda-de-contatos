@@ -7,7 +7,7 @@ Projeto completo de uma **API RESTful em PHP puro** com **MySQL** para gerenciar
 
 ## Link do projeto em produção:
 
-👉 **[Front-end]([https://github.com/msilvalucas/agenda-de-contatos-backend](https://msilvalucas.github.io/agenda-de-contatos/))**
+👉 **[Front-end](https://msilvalucas.github.io/agenda-de-contatos/)**
 
 ---
 
